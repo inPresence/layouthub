@@ -777,7 +777,7 @@
             {/block}
             <div class="content {if isset($cartView)}fullPage{/if}">
               {block name=banner}{/block}
-              <div id="body_ajax_overlay" style="display: none;"></div>
+              <!-- <div id="body_ajax_overlay" style="display: none;"></div> -->
               {block name="body"}{/block}
             </div>
           </div>
