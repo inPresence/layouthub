@@ -673,7 +673,7 @@
                         <img src="/images/shared/logos/logo_hubcohub.png" alt="">
                     </a>
                 </div>
-                <div class="col-xs-12 col-sm-6">
+                <div class="col-xs-12 col-sm-6 acct-nav">
                     <div class="row search">
                         <form action="/" method="get">
                             <div class="input-group search-group">
@@ -842,11 +842,11 @@
 
                 <div class="col-xs-6">
 
-                   Chat
+                   Chat <span class="glyphicon glyphicon-comment"> </span>
                </div>
 
                     <div class="col-xs-6">
-                     800-123-3455
+                     800-123-3455  <span class="glyphicon glyphicon-phone"></span>
                     </div>
 
                     <div class="row footer-nav ">
@@ -943,23 +943,23 @@
                     {
                       breakpoint: 1024,
                       settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
+                        slidesToShow: 4,
+                        slidesToScroll: 4,
                         infinite: true,
                       }
                     },
                     {
                       breakpoint: 600,
                       settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2
+                        slidesToShow: 3,
+                        slidesToScroll: 3
                       }
                     },
                     {
                       breakpoint: 480,
                       settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
+                        slidesToShow: 2,
+                        slidesToScroll: 2
                       }
                     }
                 ]
