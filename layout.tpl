@@ -842,11 +842,11 @@
 
                 <div class="col-xs-6">
 
-                   Chat <span class="glyphicon glyphicon-comment"> </span>
+                   Chat <span class="glyphicon glyphicon-comment comment-icon"> </span>
                </div>
 
                     <div class="col-xs-6">
-                     800-123-3455  <span class="glyphicon glyphicon-phone"></span>
+                     800-123-3455  <span class="glyphicon glyphicon-phone phone-icon"></span>
                     </div>
 
                     <div class="row footer-nav ">
