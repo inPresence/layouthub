@@ -1,0 +1,161 @@
+body {
+    background-color: grey;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-header {
+    float: left;
+    background-color: black;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: black;
+    margin-right: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: black;
+}
+
+.navbar-collapse {
+    clear: both;
+}
+
+.icon-bar, .icon-text {
+    color: white;
+}
+
+.icon-bar {
+    float: left;
+    clear: both;
+}
+
+.icon-text {
+    padding-left: 10px;
+}
+
+.tabs {
+    background-color: white;
+}
+
+.tabs .nav {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.tabs .nav a {
+    color: black;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.bs-header {
+    position: relative;
+    box-shadow: 0px 5px 5px 0px;
+}
+
+.bs-header > .row {
+    padding: 0 5%;
+}
+
+.row.search {
+    padding-top: 25px;
+}
+
+.search-group {
+    width: 75%;
+    float: left;
+}
+
+.search-group * {
+    border-radius: 0;
+}
+
+.searchbar {
+    color: black;
+    text-transform: uppercase;
+}
+
+.search-icon {
+    color: white;
+}
+
+.cart-icon {
+    color: white;
+    font-size: 2em;
+    padding: 5px 5%;
+}
+
+.header-main {
+    background-color: black;
+}
+
+.nav#personal-links {
+    margin: 10px 0;
+}
+
+.nav#personal-links > li {
+    float: left;
+    border-left: 2px solid white;
+}
+
+.nav#personal-links > li:first-child {
+    border-left: none;
+}
+
+.nav#personal-links a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav#personal-links > li > a:hover {
+    background-color: none;
+    color: yellow;
+}
+
+.container.main {
+    width: 1024px;
+}
+
+.container.footer{
+
+	    text-transform: capitalize;
+    font-size: 1em;
+	    text-align: left;
+		  background-color:white;
+		      width: 1024px;
+}
+
+ul.nav.footer.nav-justified {
+    background-color: #E6CC02;
+}
+
+.row.help strong{
+    color: white;
+}
+.row.help{
+	color: #E6CC02;
+
+}
+
+.footer {
+    background-color: black;
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-nav { display: none;}
+}
+
+@media screen and (max-width: 768px) {
+    .main-nav { display: none;}
+
+    .bs-header > .tabs {
+        padding: 0;
+    }
+}
