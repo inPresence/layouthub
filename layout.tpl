@@ -849,7 +849,7 @@
                      <strong> 800-123-3455 </strong>  <span class="glyphicon glyphicon-phone phone-icon"></span>
                     </div>
 
-                    <div class="row footer-nav ">
+                    <div class="row col-md-6 col-md-push-3 footer-nav ">
                         <ul class="nav footer-links nav-justified">
                             <li ><a href="/customer_service?section=0" id="ui-id-2" tabindex="-1" role="menuitem">ABOUT US</a></li>
 
