@@ -159,3 +159,10 @@ ul.nav.footer.nav-justified {
         padding: 0;
     }
 }
+
+ul.nav.footer.nav-justified >li {
+	
+	
+	border-left: 2px solid white;
+}
+
