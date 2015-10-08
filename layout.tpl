@@ -6,8 +6,10 @@
       <link href="/css/mobile_jcarousel.css" rel="stylesheet" type="text/css" />
       <link href="/css/mobile_layout.css" rel="stylesheet" type="text/css" />
       <link rel="stylesheet" href="{$smarty.const.BASE_URL}/js/jquery/css/oilhub-theme-frontend/jquery-ui-1.9.2.custom.css" />
-      <link href="/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
-      <link href="/css/shared_inpresence.css" rel="stylesheet" type="text/css">
+      <link href="/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+      <link href="/slick/slick/slick.css" rel="stylesheet" type="text/css"/>
+      <link href="/slick/slick/slick-theme.css" rel="stylesheet" type="text/css">
+      <link href="/css/shared_inpresence.css" rel="stylesheet" type="text/css"/>
       {block name=css}{/block}
       <title>{block name=title}The Hub Companies{/block}</title>
       {if isset($mainSite) && ($mainSite.siteID != $site.siteID)}
@@ -442,6 +444,8 @@
       <link href="/css/shared_jcarousel.css" rel="stylesheet" type="text/css" />
       <link rel="stylesheet" href="{$smarty.const.BASE_URL}/js/jquery/css/oilhub-theme-frontend/jquery-ui-1.9.2.custom.css" />
       <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css">
+      <link href="/slick/slick/slick.css" rel="stylesheet" type="text/css"/>
+      <link href="/slick/slick/slick-theme.css" rel="stylesheet" type="text/css">
       <link href="/css/shared_inpresence.css" rel="stylesheet" type="text/css">
       {block name=css}{/block}
       <title>{block name=title}The Hub Companies{/block}</title>
@@ -874,7 +878,7 @@
 		    <div class="col-xs-6">Connect with us! </div>
 
 		  </div>
-       
+
 
 		  </div>
         <div id="layout-control">
@@ -926,7 +930,42 @@
         {/if}
       {/foreach}
     <script type="text/javascript" src="{$smarty.const.BASE_URL}/js/jquery/jquery-1.11.3.js"></script>
-    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/slick/slick/slick.min.js"></script>
+    <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.brand-carousel-slick').slick({
+                infinite: true,
+                speed: 300,
+                slidesToShow: 6,
+                slidesToScroll: 6,
+                responsive: [
+                    {
+                      breakpoint: 1024,
+                      settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                      }
+                    },
+                    {
+                      breakpoint: 600,
+                      settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                      }
+                    },
+                    {
+                      breakpoint: 480,
+                      settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                      }
+                    }
+                ]
+            });
+        });
+      </script>
     </body>
     </html>
   {* COMPUTER LAYOUT END *}
