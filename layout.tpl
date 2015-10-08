@@ -856,10 +856,15 @@
                           <li ><a href="/customer_service?section=7" id="ui-id-3" tabindex="-1" role="menuitem">BENEFITS &amp; GUARANTEES</a></li>
                           <li ><a href="/customer_service?section=1" id="ui-id-4" tabindex="-1" role="menuitem">PRIVACY &amp; SECURITY</a></li>
                           <li ><a href="/customer_service?section=3" id="ui-id-5" tabindex="-1" role="menuitem">SHIPPING &amp; DELIVERY</a></li>
-                          <li ><a  href="/customer_service?section=5" id="ui-id-6" tabindex="-1" role="menuitem">RETURNS &amp; EXCHANGES</a></li>
+                         
+                      </ul>
+					  
+					  
+					  <ul class="nav footer-links nav-justified">
+					   <li ><a  href="/customer_service?section=5" id="ui-id-6" tabindex="-1" role="menuitem">RETURNS &amp; EXCHANGES</a></li>
                           <li ><a href="/customer_service?section=4" id="ui-id-7" tabindex="-1" role="menuitem">CONTACT US</a></li>
                           <li ><a  href="/customer_service?section=9" id="ui-id-8" tabindex="-1" role="menuitem">TERMS OF SERVICE</a></li>
-                      </ul>
+					  <ul
 
                     </div>
 
