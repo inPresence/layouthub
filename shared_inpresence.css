@@ -65,11 +65,11 @@ body {
 }
 
 .row.search {
-    padding-top: 25px;
+    padding: 25px 10px 0 10px;
 }
 
 .search-group {
-    width: 75%;
+    width: 80%;
     float: left;
 }
 
@@ -94,6 +94,10 @@ body {
 
 .header-main {
     background-color: black;
+}
+
+.acct-nav {
+    padding: 0;
 }
 
 .nav#personal-links {
@@ -179,9 +183,18 @@ ul.nav.footer.nav-justified >li {
 	border-left: 2px solid black;
 }
 
-
-ul.nav.footer.nav-justified a {
-    color: black;
-    text-transform: uppercase;
+.comment-icon{
+	  color: black;
+	  background-color:white;
+	
 }
+
+.phone-icon{
+		  color: black;
+	  background-color:white;
+	
+	
+}
+
+
 
