@@ -183,6 +183,12 @@ ul.nav.footer.nav-justified >li {
 	border-left: 2px solid black;
 }
 
+ul.nav.footer.nav-justified >li a {
+
+
+ color:black;
+}
+
 .comment-icon{
 	  color: black;
 	  background-color:white;
