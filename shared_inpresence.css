@@ -195,6 +195,16 @@ ul.nav.footer.nav-justified >li {
 	padding: 1px 1%;
 	
 }
+.col-xs-6.chat strong {
+    background-color: yellow;
+    padding-left: 10px;
+    padding-right: 16px;
+}
 
 
 
+.col-xs-6.phone strong {
+    background-color: yellow;
+    padding-left: 10px;
+    padding-right: 16px;
+}

@@ -840,13 +840,13 @@
             </div>
 			   <div class="row footer-main">
 
-                <div class="col-xs-6">
+                <div class="col-xs-6 chat">
 
-                   Chat <span class="glyphicon glyphicon-comment comment-icon"> </span>
+                  <strong> Chat </strong> <span class="glyphicon glyphicon-comment comment-icon"> </span>
                </div>
 
-                    <div class="col-xs-6">
-                     800-123-3455  <span class="glyphicon glyphicon-phone phone-icon"></span>
+                    <div class="col-xs-6 phone">
+                     <strong> 800-123-3455 </strong>  <span class="glyphicon glyphicon-phone phone-icon"></span>
                     </div>
 
                     <div class="row footer-nav ">
