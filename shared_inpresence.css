@@ -179,3 +179,9 @@ ul.nav.footer.nav-justified >li {
 	border-left: 2px solid black;
 }
 
+
+ul.nav.footer.nav-justified a {
+    color: black;
+    text-transform: uppercase;
+}
+
