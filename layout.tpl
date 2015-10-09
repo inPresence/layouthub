@@ -810,7 +810,7 @@
 		 <div class="container-fluid bs-footer">
 
             <div class="row help">
-                <ul class="nav footer nav-justified">
+                <ul class="nav footer  nav-justified">
                     <li>
                         <a href="http://www.theoilhub.com"{if $site.templateDir == "oil"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.theoilhub.com']); return false;">Oil</a>
                     </li>
