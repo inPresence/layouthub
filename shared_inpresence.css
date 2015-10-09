@@ -248,3 +248,9 @@ ul.nav.footer-links.nav-justified >li a  {
  color:white;
 }
 
+
+
+ul.nav.footer-links.nav-justified>li>a:hover {
+    text-decoration: underline;
+	background-color:black;
+}
