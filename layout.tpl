@@ -880,7 +880,7 @@
             866-907-2330&nbsp;&nbsp;&nbsp;847-790-4HUB&nbsp;&nbsp;&nbsp;847-790-4482
           </div>
 
-		    <div class="col-xs-6 col-xs-push-4">Connect with us! </div>
+		    <div class="col-xs-6">Connect with us! </div>
 
 		  </div>
 
