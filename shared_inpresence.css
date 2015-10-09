@@ -191,7 +191,7 @@ ul.nav.footer.nav-justified >li:first-child {
 
 ul.nav.footer.nav-justified >li a {
 
-
+text-transform: uppercase;
  color:black;
 }
 
