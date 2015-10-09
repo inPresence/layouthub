@@ -873,7 +873,7 @@
  </div>
   </div>
           <div class="container footer"> <div class="col-xs-6">
-            Copyright � 2013. All Rights Reserved<br />
+            Copyright 2015. All Rights Reserved<br />
             Operated by Edge Xtreme Sports a subsidiary of The Hub Companies <br />
             600 North Waukegan Road, Unit 102<br />
             Northbrook IL 60062<br />
