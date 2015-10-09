@@ -153,6 +153,7 @@ ul.nav.footer.nav-justified {
     background-color: #E6CC02;
 	    padding-bottom: 0px;
     padding-top: 0px;
+	    padding-right: 0px;
 }
 
 .row.help strong{
@@ -190,6 +191,7 @@ ul.nav.footer.nav-justified >li {
 ul.nav.footer.nav-justified >li:first-child {
     border-left: none;
 }
+
 
 ul.nav.footer.nav-justified >li a {
 
