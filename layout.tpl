@@ -870,7 +870,7 @@
                     </div>
 
             </div>
-
+</div>
  </div>
   </div>
           <div class="container footer"> <div class="col-xs-6 copyright">
