@@ -260,7 +260,14 @@ ul.nav.footer-links.nav-justified>li>a:hover {
 }
 .col-xs-4.col-md-push-4.social {
     width: 16%;
+	color:black;
 }
+
+.col-xs-6.copyright{
+	
+	color:black;
+}
+
 
 @media screen and (max-width: 990px) {
 	.col-xs-4.col-md-push-4.social {
