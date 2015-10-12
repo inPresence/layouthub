@@ -156,10 +156,10 @@ ul.nav.footer.nav-justified {
 	    padding-right: 0px;
 }
 
-.row.help strong{
+.row.footer-nav strong{
     color: white;
 }
-.row.help{
+.row.footer-nav{
 	color: #E6CC02;
 
 }
