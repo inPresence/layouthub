@@ -842,7 +842,7 @@
 
                 <div class="col-xs-6 col-xs-push-2 chat">
 
-                  <strong> Chat </strong> <span class="glyphicon glyphicon-comment comment-icon"> </span>
+                  <strong>Live Chat </strong> <span class="glyphicon glyphicon-comment comment-icon"> </span>
                </div>
 
                     <div class="col-xs-6 col-xs-pull-2 phone">
