@@ -834,9 +834,10 @@
                     </li>
                     <li><a href="">Apparel</a></li>
                 </ul>
-				<strong>WE'RE HERE TO HELP.</strong> <br />
-				7 DAYS A WEEK, 8AM - 7PM
-
+				<div class="row help">
+					<strong>WE'RE HERE TO HELP.</strong> <br />
+					7 DAYS A WEEK, 8AM - 7PM
+				</div>
             </div>
 			   <div class="row footer-main">
 
