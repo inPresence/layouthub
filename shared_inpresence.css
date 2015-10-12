@@ -258,3 +258,6 @@ ul.nav.footer-links.nav-justified>li>a:hover {
     padding-left: 0px;
     padding-right: 0px;
 }
+.col-xs-4.col-md-push-4.social {
+    width: 16%;
+}
