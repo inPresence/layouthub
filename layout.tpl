@@ -872,7 +872,7 @@
 
  </div>
   </div>
-          <div class="container footer"> <div class="col-xs-6">
+          <div class="container footer"> <div class="col-xs-6 copyright">
             Copyright 2015. All Rights Reserved<br />
             Operated by Edge Xtreme Sports a subsidiary of The Hub Companies <br />
             600 North Waukegan Road, Unit 102<br />
@@ -880,7 +880,7 @@
             866-907-2330&nbsp;&nbsp;&nbsp;847-790-4HUB&nbsp;&nbsp;&nbsp;847-790-4482
           </div>
 
-		    <div class="col-xs-6">Connect with us! </div>
+		    <div class="col-xs-6 social">Connect with us! </div>
 
 		  </div>
 
