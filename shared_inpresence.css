@@ -252,3 +252,9 @@ ul.nav.footer-links.nav-justified>li>a:hover {
     text-decoration: underline;
 	background-color:black;
 }
+
+
+.container-fluid.bs-footer {
+    padding-left: 0px;
+    padding-right: 0px;
+}
