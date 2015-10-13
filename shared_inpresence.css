@@ -282,3 +282,11 @@ ul.nav.footer.nav-justified >li {
 }
 
 }
+
+
+@media screen and (max-width: 990px) {
+.row.col-md-6.col-md-push-3.footer-nav {
+    padding-top: 15px;
+}
+
+}
