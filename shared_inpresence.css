@@ -289,4 +289,16 @@ ul.nav.footer.nav-justified >li {
     padding-top: 15px;
 }
 
+
+
+
+
+.col-xs-6.col-xs-push-2.phone {
+    left: 0%;
+}
+.col-xs-6.col-xs-push-2.chat {
+    left: 0%;
+}
+
+
 }
