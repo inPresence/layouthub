@@ -194,6 +194,12 @@ padding-top: 10px;
     .bs-header > .tabs {
         padding: 0;
     }
+	
+	ul.nav.footer.nav-justified {
+    margin-left: 25%;
+    width: 50%;
+}
+
 }
 
 ul.nav.footer.nav-justified >li {
@@ -296,8 +302,6 @@ ul.nav.footer.nav-justified >li {
 
 
 
-
-
 .col-xs-6.col-xs-pull-2.phone{
     right: 0%;
 }
@@ -307,3 +311,6 @@ ul.nav.footer.nav-justified >li {
 
 
 }
+
+
+
