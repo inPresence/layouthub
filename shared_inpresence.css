@@ -293,7 +293,7 @@ ul.nav.footer.nav-justified >li {
 
 
 
-.col-xs-6.col-xs-push-2.phone {
+.col-xs-6.col-xs-pull-2.phone{
     right: 0%;
 }
 .col-xs-6.col-xs-push-2.chat {
