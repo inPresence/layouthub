@@ -839,49 +839,45 @@
 					7 DAYS A WEEK, 8AM - 7PM
 				</div>
             </div>
-			   <div class="row footer-main">
+		    <div class="row footer-main">
+                <!-- <div class="col-xs-6 col-xs-push-2 chat"> -->
+                <div class="col-xs-6 chat">
+                    <strong class="icon-text-foot">LIVE CHAT</strong><span class="glyphicon glyphicon-comment comment-icon"> </span>
+                </div>
+                <!-- <div class="col-xs-6 col-xs-pull-2 phone"> -->
+                <div class="col-xs-6 phone">
+                    <strong class="icon-text-foot">800-123-3455</strong><span class="glyphicon glyphicon-phone phone-icon"></span>
+                </div>
+            </div>
+            <div class="row col-md-6 col-md-push-3 footer-nav ">
+                <ul class="nav footer-links nav-justified">
+                    <li ><a href="/customer_service?section=0" id="ui-id-2" tabindex="-1" role="menuitem">ABOUT US</a></li>
+                    <li ><a href="/customer_service?section=7" id="ui-id-3" tabindex="-1" role="menuitem">BENEFITS &amp; GUARANTEES</a></li>
+                    <li ><a href="/customer_service?section=1" id="ui-id-4" tabindex="-1" role="menuitem">PRIVACY &amp; SECURITY</a></li>
+                    <li ><a href="/customer_service?section=3" id="ui-id-5" tabindex="-1" role="menuitem">SHIPPING &amp; DELIVERY</a></li>
+                </ul>
+			    <ul class="nav footer-links nav-justified">
+    			    <li ><a  href="/customer_service?section=5" id="ui-id-6" tabindex="-1" role="menuitem">RETURNS &amp; EXCHANGES</a></li>
+                    <li ><a href="/customer_service?section=4" id="ui-id-7" tabindex="-1" role="menuitem">CONTACT US</a></li>
+                    <li ><a  href="/customer_service?section=9" id="ui-id-8" tabindex="-1" role="menuitem">TERMS OF SERVICE</a></li>
+			    </ul>
 
-                <div class="col-xs-6 col-xs-push-2 chat">
-
-                  <strong>LIVE CHAT </strong> <span class="glyphicon glyphicon-comment comment-icon"> </span>
-               </div>
-
-                    <div class="col-xs-6 col-xs-pull-2 phone">
-                     <strong> 800-123-3455 </strong>  <span class="glyphicon glyphicon-phone phone-icon"></span>
-                    </div>
-
-                    <div class="row col-md-6 col-md-push-3 footer-nav ">
-                        <ul class="nav footer-links nav-justified">
-                            <li ><a href="/customer_service?section=0" id="ui-id-2" tabindex="-1" role="menuitem">ABOUT US</a></li>
-
-                          <li ><a href="/customer_service?section=7" id="ui-id-3" tabindex="-1" role="menuitem">BENEFITS &amp; GUARANTEES</a></li>
-                          <li ><a href="/customer_service?section=1" id="ui-id-4" tabindex="-1" role="menuitem">PRIVACY &amp; SECURITY</a></li>
-                          <li ><a href="/customer_service?section=3" id="ui-id-5" tabindex="-1" role="menuitem">SHIPPING &amp; DELIVERY</a></li>
-                         
-                      </ul>
-					  
-					  
-					  <ul class="nav footer-links nav-justified">
-					   <li ><a  href="/customer_service?section=5" id="ui-id-6" tabindex="-1" role="menuitem">RETURNS &amp; EXCHANGES</a></li>
-                          <li ><a href="/customer_service?section=4" id="ui-id-7" tabindex="-1" role="menuitem">CONTACT US</a></li>
-                          <li ><a  href="/customer_service?section=9" id="ui-id-8" tabindex="-1" role="menuitem">TERMS OF SERVICE</a></li>
-					  <ul
-
-                    </div>
+            </div>
 
             </div>
 </div>
  </div>
   </div>
-          <div class="container footer"> <div class="col-xs-6 copyright">
-            Copyright 2015. All Rights Reserved<br />
-            Operated by Edge Xtreme Sports a subsidiary of The Hub Companies <br />
-            600 North Waukegan Road, Unit 102<br />
-            Northbrook IL 60062<br />
-            866-907-2330&nbsp;&nbsp;&nbsp;847-790-4HUB&nbsp;&nbsp;&nbsp;847-790-4482
-          </div>
+          <div class="container footer">
+            <div class="col-xs-6 copyright">
+                Copyright 2015. All Rights Reserved<br />
+                Operated by Edge Xtreme Sports a subsidiary of The Hub Companies <br />
+                600 North Waukegan Road, Unit 102<br />
+                Northbrook IL 60062<br />
+                866-907-2330&nbsp;&nbsp;&nbsp;847-790-4HUB&nbsp;&nbsp;&nbsp;847-790-4482
+            </div>
 
-		    <div class="col-xs-4 col-md-push-4 social">Connect with us! </div>
+		    <div class="col-xs-6 col-md-push-4 social">Connect with us! </div>
 
 		  </div>
 
