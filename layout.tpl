@@ -878,6 +878,8 @@
             </div>
 
 		    <div class="col-xs-6 social">Connect with us! </div>
+			<img src="http://www.thehubcompanies.inpresence.us/img/facebook.png" alt="">
+			<img src="http://www.thehubcompanies.inpresence.us/img/twitter.png" alt="">
 
 		  </div>
 
