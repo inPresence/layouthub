@@ -1,4 +1,4 @@
-{if ($deviceLayoutType == "mobile" && $smarty.cookies.layout != "mobile") || $smarty.cookies.layout == "mobile"}
+{if ($deviceLayoutType != "mobile" && $smarty.cookies.layout != "computer") }
   {* MOBILE LAYOUT START *}
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
@@ -886,7 +886,7 @@
         <div id="layout-control">
           <div>
           Change Website Layout<br>
-          <a href="?forcelayout=mobile">Mobile</a> | <a href="?forcelayout=computer">Desktop</a>
+          <a href="?forcelayout=computer">Mobile</a> | <a href="?forcelayout=computer">Desktop</a>
           </div>
           <div>
             <a href="#" class="scrollToTop">Scroll To Top</a>
