@@ -607,7 +607,7 @@
 			<div class="col-md-2 left-ad"><strong>SAVE</strong> <br />
 			MORE! </div>
 			
-			<div class="col-md-6 right-ad"><strong>FREE SHIPPING ON ORDERS OVER $75 </strong><br />
+			<div class="col-md-6 right-ad"><span class="glyphicon glyphicon-plus plus-icon"></span><strong>FREE SHIPPING ON ORDERS OVER $75 </strong><br />
 USE CODE <b>OIL</b> FOR AN ADDITIONAL 15% OFF!</div>
 </div>
             <div class="row tabs">
