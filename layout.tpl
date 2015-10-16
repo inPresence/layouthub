@@ -603,7 +603,12 @@
               <img src="/images/shared/tabs/rider_top_tab.png" width="132" height="47" /></a></div>
         </div> -->
         <div class="container-fluid bs-header">
-            <div class="row promo"></div>
+            <div class="row promo">
+			<div class="col-md-2">Save More</div>
+			
+			<div class="col-md-6">FREE SHIPPING ON ORDERS OVER $75
+USE CODE OIL FOR AN ADDITIONAL 15% OFF!</div>
+</div>
             <div class="row tabs">
                 <nav class="navbar">
                     <div class="navbar-header navbar-default">
