@@ -354,6 +354,7 @@ ul.nav.footer-links.nav-justified>li>a:hover {
 
 .col-md-6.right-ad {
     background-color: #FFFFFF;
+	border-right: 17px solid #E6CC02;
     padding-bottom: 3%;
     margin-top: 5px;
     margin-bottom: 10px;
