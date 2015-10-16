@@ -604,9 +604,9 @@
         </div> -->
         <div class="container-fluid bs-header">
             <div class="row promo">
-			<div class="col-md-2">Save More</div>
+			<div class="col-md-2 left-ad">Save More</div>
 			
-			<div class="col-md-6">FREE SHIPPING ON ORDERS OVER $75
+			<div class="col-md-6 right-ad">FREE SHIPPING ON ORDERS OVER $75
 USE CODE OIL FOR AN ADDITIONAL 15% OFF!</div>
 </div>
             <div class="row tabs">
