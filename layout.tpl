@@ -608,7 +608,7 @@
 			MORE! </div>
 			
 			<div class="col-md-6 right-ad"><strong>FREE SHIPPING ON ORDERS OVER $75 </strong><br />
-USE CODE OIL FOR AN ADDITIONAL 15% OFF!</div>
+USE CODE <b>OIL</b> FOR AN ADDITIONAL 15% OFF!</div>
 </div>
             <div class="row tabs">
                 <nav class="navbar">
