@@ -343,7 +343,13 @@ ul.nav.footer-links.nav-justified>li>a:hover {
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 5px;
+	color: #E6CC02;
+}
+
+.col-md-2.left-ad strong{
+	
 	color:white;
+	
 }
 
 .col-md-6.right-ad {

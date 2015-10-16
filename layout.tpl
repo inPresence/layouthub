@@ -604,8 +604,8 @@
         </div> -->
         <div class="container-fluid bs-header">
             <div class="row promo">
-			<div class="col-md-2 left-ad">Save <br />
-			More! </div>
+			<div class="col-md-2 left-ad"><strong>SAVE</strong> <br />
+			MORE! </div>
 			
 			<div class="col-md-6 right-ad">FREE SHIPPING ON ORDERS OVER $75
 USE CODE OIL FOR AN ADDITIONAL 15% OFF!</div>
