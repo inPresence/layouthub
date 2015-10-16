@@ -606,7 +606,7 @@
             <div class="row promo">
 			<div class="col-md-2 left-ad"><strong>SAVE</strong> <br />
 			MORE! </div>
-			
+
 			<div class="col-md-6 right-ad"><span class="glyphicon glyphicon-plus plus-icon"></span><strong>FREE SHIPPING ON ORDERS OVER $75 </strong><br />
 USE CODE <b>OIL</b> FOR AN ADDITIONAL 15% OFF!</div>
 </div>
@@ -702,7 +702,40 @@ USE CODE <b>OIL</b> FOR AN ADDITIONAL 15% OFF!</div>
                     </div>
                 </div>
             </div>
-            <div class="row site-nav"></div>
+            <div class="row" id="site-nav">
+                <nav class="navbar">
+                    <div class="navbar-header navbar-default">
+                        <a type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-nav" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="site-nav">
+                        <ul class="nav nav-justified second-nav">
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                            <li><a href="#">Link 4</a></li>
+                            <li><a href="#">Link 5</a></li>
+                            <li><a href="#">Link 6</a></li>
+                            <li><a href="#">Link 7</a></li>
+                            <li><a href="#">Link 8</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav visible-xs-* visible-sm-* mobile-nav">
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                            <li><a href="#">Link 4</a></li>
+                            <li><a href="#">Link 5</a></li>
+                            <li><a href="#">Link 6</a></li>
+                            <li><a href="#">Link 7</a></li>
+                            <li><a href="#">Link 8</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
         <!-- <div class="header" style="background-image: url(http://www.thehubcompanies.com/images/shared/headers/header_{$site.templateDir}hub.png);">
            <div id="header-logo">
