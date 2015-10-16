@@ -337,5 +337,19 @@ ul.nav.footer-links.nav-justified>li>a:hover {
 
 }
 
+.col-md-2.left-ad{
+    background-color: black;
+    padding-bottom: 3%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
 
+.col-md-6.right-ad {
+    background-color: #E9E9E9;
+    padding-bottom: 3%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
 
