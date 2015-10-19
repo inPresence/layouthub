@@ -300,6 +300,8 @@ ul.nav.footer-links.nav-justified>li>a:hover {
 
 
 
+
+
 @media screen and (max-width: 768px) {
     .main-nav { display: none;}
 
@@ -341,6 +343,22 @@ ul.nav.footer-links.nav-justified>li>a:hover {
 
 
 }
+
+@media screen and (max-width: 768px) {
+	
+	
+	.col-md-6.right-ad{
+		padding-bottom: 0%;
+		margin-bottom: -42px;
+    margin-right: -16px;
+	    margin-left: 85px;
+	}
+	
+	.col-md-2.left-ad {
+    display: none;
+	}
+}
+
 
 .col-md-2.left-ad{
     background-color: black;
