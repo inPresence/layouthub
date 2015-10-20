@@ -676,7 +676,7 @@ USE CODE <b>OIL</b> FOR AN ADDITIONAL 15% OFF!</div>
             <div class="row header-main">
                 <div class="col-xs-12 col-sm-6 logo">
                     <a href="/">
-                        <img src="/images/shared/logos/logo_hubcohub.png" alt="">
+                        <img src="http://www.thehubcompanies.com/images/shared/logos/logo_{$site.templateDir}hub.png" width="525" height="68" >
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 acct-nav">
@@ -844,7 +844,7 @@ USE CODE <b>OIL</b> FOR AN ADDITIONAL 15% OFF!</div>
             <div class="clear"></div>
             </a>
           </div>
-        </div> -->
+        </div>    Add if statement to the footer           -->
          <div class="footer">
 		 <div class="container-fluid bs-footer">
 
