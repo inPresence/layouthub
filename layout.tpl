@@ -437,8 +437,8 @@
   {* MOBILE LAYOUT END *}
 {else}
   {* COMPUTER LAYOUT *}
-    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
     <head>
       <link href="/css/shared_global.css" rel="stylesheet" type="text/css" />
       <link href="/css/shared_jcarousel.css" rel="stylesheet" type="text/css" />
@@ -447,6 +447,7 @@
       <link href="/slick/slick/slick.css" rel="stylesheet" type="text/css"/>
       <link href="/slick/slick/slick-theme.css" rel="stylesheet" type="text/css">
       <link href="/css/shared_inpresence.css" rel="stylesheet" type="text/css">
+      <link href="/css/categories_inpresence.css" rel="stylesheet" type="text/css">
       {block name=css}{/block}
       <title>{block name=title}The Hub Companies{/block}</title>
       {if isset($mainSite) && ($mainSite.siteID != $site.siteID)}
@@ -533,16 +534,16 @@
       <![endif]-->
     </head>
     <body>
-    {* FACEBOOK *}
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1413965442222204&version=v2.0";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-    {* FACEBOOK *}
+        {* FACEBOOK *}
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1413965442222204&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+        {* FACEBOOK *}
     <!-- <div id="chat_tab" {if $deviceLayoutType == 'mobile'}data-slideexpand="false"{else}data-slideexpand="true"{/if} style="background-color: #{$site.siteColor}; background-image: url(/images/shared/icons/chat_icon_bg.png); background-repeat:repeat-x;">
       {*<div style="position: absolute; bottom: 385px; left: 10px; font-size: 22px; width: 285px; color: #ff0000; font-weight: bold;">
       We are experiencing problems with our phones.
@@ -577,8 +578,7 @@
       <script type="text/javascript">(function() { var phplive_e_1364232377 = document.createElement("script") ; phplive_e_1364232377.type = "text/javascript" ; phplive_e_1364232377.async = true ; phplive_e_1364232377.src = "//www.{$site.url}.com/phplive/js/phplive_v2.js.php?q=0|1364232377|0|" ; document.getElementById("phplive_btn_1364232377").appendChild( phplive_e_1364232377 ) ; })() ;</script>
     </div> -->
     <div class="outer_wrapper">
-      <!-- <div class="inner_wrapper"> -->
-      <div class="bs-wrapper">
+        <div class="bs-wrapper">
         <!-- <div class="top-tabs">
           <div class="top-tab" id="top-tab-oil">
             <a href="http://www.theoilhub.com"{if $site.templateDir == "oil"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.theoilhub.com']); return false;">
@@ -602,141 +602,135 @@
             <a href="http://www.riderapparelhub.com"{if $site.templateDir == "rider"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.riderapparelhub.com']); return false;">
               <img src="/images/shared/tabs/rider_top_tab.png" width="132" height="47" /></a></div>
         </div> -->
-        <div class="container-fluid bs-header">
-            <div class="row promo">
-			<div class="col-md-2 left-ad"><strong>SAVE</strong> <br />
-			MORE! </div>
-
-			<div class="col-md-6 right-ad"><span class="glyphicon glyphicon-plus plus-icon"></span><strong>FREE SHIPPING ON ORDERS OVER $75 </strong><br />
-USE CODE <b>OIL</b> FOR AN ADDITIONAL 15% OFF!</div>
-</div>
-            <div class="row tabs">
-                <nav class="navbar">
-                    <div class="navbar-header navbar-default">
-                        <a type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-text">All Hubs</span>
-                        </a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="main-nav">
-                        <ul class="nav nav-justified main-nav">
-                            <li>
-                                <a href="http://www.theoilhub.com"{if $site.templateDir == "oil"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.theoilhub.com']); return false;">Oil</a>
-                            </li>
-                            <li>
-                                <a href="http://www.autoparthub.com"{if $site.templateDir == "auto"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.autoparthub.com']); return false;">Auto</a>
-                            </li>
-                            <li>
-                                <a href="http://www.motoparthub.com"{if $site.templateDir == "moto"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.motoparthub.com']); return false;">Moto</a>
-                            </li>
-                            <li>
-                                <a href="http://www.marineparthub.com"{if $site.templateDir == "marine"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.marineparthub.com']); return false;">Marine</a>
-                            </li>
-                            <li>
-                                <a href="http://www.atvparthub.com"{if $site.templateDir == "atv"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.atvparthub.com']); return false;">ATV</a>
-                            </li>
-                            <li>
-                                <a href="http://www.snowparthub.com"{if $site.templateDir == "snow"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.snowparthub.com']); return false;">Snow</a>
-                            </li>
-                            <li>
-                                <a href="http://www.riderapparelhub.com"{if $site.templateDir == "rider"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.riderapparelhub.com']); return false;">RV</a>
-                            </li>
-                            <li><a href="">Apparel</a></li>
-                        </ul>
-                        <ul class="nav navbar-nav visible-xs-* visible-sm-* mobile-nav">
-                            <li>
-                                <a href="http://www.theoilhub.com"{if $site.templateDir == "oil"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.theoilhub.com']); return false;">Oil</a>
-                            </li>
-                            <li>
-                                <a href="http://www.autoparthub.com"{if $site.templateDir == "auto"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.autoparthub.com']); return false;">Auto</a>
-                            </li>
-                            <li>
-                                <a href="http://www.motoparthub.com"{if $site.templateDir == "moto"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.motoparthub.com']); return false;">Moto</a>
-                            </li>
-                            <li>
-                                <a href="http://www.marineparthub.com"{if $site.templateDir == "marine"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.marineparthub.com']); return false;">Marine</a>
-                            </li>
-                            <li>
-                                <a href="http://www.atvparthub.com"{if $site.templateDir == "atv"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.atvparthub.com']); return false;">ATV</a>
-                            </li>
-                            <li>
-                                <a href="http://www.snowparthub.com"{if $site.templateDir == "snow"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.snowparthub.com']); return false;">Snow</a>
-                            </li>
-                            <li>
-                                <a href="http://www.riderapparelhub.com"{if $site.templateDir == "rider"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.riderapparelhub.com']); return false;">RV</a>
-                            </li>
-                            <li><a href="">Apparel</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-            <div class="row header-main">
-                <div class="col-xs-12 col-sm-6 logo">
-                    <a href="/">
-                        <img src="http://www.thehubcompanies.com/images/shared/logos/logo_{$site.templateDir}hub.png" width="525" height="68" >
-                    </a>
-                </div>
-                <div class="col-xs-12 col-sm-6 acct-nav">
-                    <div class="row search">
-                        <form action="/" method="get">
-                            <div class="input-group search-group">
-                                <input type="text" name="search" class="form-control searchbar" placeholder="Search" />
-                                <span class="input-group-btn">
-                                    <button class="btn btn-default search-icon">
-                                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                                    </button>
-                                </span>
-                            </div>
-                            <span class="glyphicon glyphicon-shopping-cart cart-icon"></span>
-                        </form>
-                    </div>
-                    <div class="row site-nav">
-                        <ul class="nav" id="personal-links">
-                            <li><a href="">My Orders</a></li>
-                            <li><a href="customer_service">Customer Service</a></li>
-                            <li><a href="customer">Your Account</a></li>
-                        </ul>
+            <div class="container-fluid bs-header">
+                <div class="row promo">
+        		    <div class="col-md-2 left-ad"><strong>SAVE</strong><br/>MORE!</div>
+        		    <div class="col-md-6 right-ad">
+                        <span class="glyphicon glyphicon-plus plus-icon"></span>
+                        <strong>FREE SHIPPING ON ORDERS OVER $75</strong><br/>
+                        USE CODE <b>OIL</b> FOR AN ADDITIONAL 15% OFF!
                     </div>
                 </div>
-            </div>
-            <div class="row" id="site-nav">
-                <nav class="navbar">
-                    <div class="navbar-header navbar-default">
-                        <a type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-nav" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
+                <div class="row tabs">
+                    <nav class="navbar">
+                        <div class="navbar-header navbar-default">
+                            <a type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-text">All Hubs</span>
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="main-nav">
+                            <ul class="nav nav-justified main-nav">
+                                <li>
+                                    <a href="http://www.theoilhub.com"{if $site.templateDir == "oil"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.theoilhub.com']); return false;">Oil</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.autoparthub.com"{if $site.templateDir == "auto"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.autoparthub.com']); return false;">Auto</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.motoparthub.com"{if $site.templateDir == "moto"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.motoparthub.com']); return false;">Moto</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.marineparthub.com"{if $site.templateDir == "marine"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.marineparthub.com']); return false;">Marine</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.atvparthub.com"{if $site.templateDir == "atv"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.atvparthub.com']); return false;">ATV</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.snowparthub.com"{if $site.templateDir == "snow"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.snowparthub.com']); return false;">Snow</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.riderapparelhub.com"{if $site.templateDir == "rider"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.riderapparelhub.com']); return false;">RV</a>
+                                </li>
+                                <li><a href="">Apparel</a></li>
+                            </ul>
+                            <ul class="nav navbar-nav visible-xs-* visible-sm-* mobile-nav">
+                                <li>
+                                    <a href="http://www.theoilhub.com"{if $site.templateDir == "oil"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.theoilhub.com']); return false;">Oil</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.autoparthub.com"{if $site.templateDir == "auto"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.autoparthub.com']); return false;">Auto</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.motoparthub.com"{if $site.templateDir == "moto"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.motoparthub.com']); return false;">Moto</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.marineparthub.com"{if $site.templateDir == "marine"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.marineparthub.com']); return false;">Marine</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.atvparthub.com"{if $site.templateDir == "atv"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.atvparthub.com']); return false;">ATV</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.snowparthub.com"{if $site.templateDir == "snow"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.snowparthub.com']); return false;">Snow</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.riderapparelhub.com"{if $site.templateDir == "rider"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.riderapparelhub.com']); return false;">RV</a>
+                                </li>
+                                <li><a href="">Apparel</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="row header-main">
+                    <div class="col-xs-12 col-sm-6 logo">
+                        <a href="/">
+                            <img src="http://www.thehubcompanies.com/images/shared/logos/logo_{$site.templateDir}hub.png" width="525" height="68" >
                         </a>
                     </div>
-                    <div class="collapse navbar-collapse" id="site-nav">
-                        <ul class="nav nav-justified second-nav">
-                            <li><a href="#">Link 1</a></li>
-                            <li><a href="#">Link 2</a></li>
-                            <li><a href="#">Link 3</a></li>
-                            <li><a href="#">Link 4</a></li>
-                            <li><a href="#">Link 5</a></li>
-                            <li><a href="#">Link 6</a></li>
-                            <li><a href="#">Link 7</a></li>
-                            <li><a href="#">Link 8</a></li>
-                        </ul>
-                        <ul class="nav navbar-nav visible-xs-* visible-sm-* mobile-nav">
-                            <li><a href="#">Link 1</a></li>
-                            <li><a href="#">Link 2</a></li>
-                            <li><a href="#">Link 3</a></li>
-                            <li><a href="#">Link 4</a></li>
-                            <li><a href="#">Link 5</a></li>
-                            <li><a href="#">Link 6</a></li>
-                            <li><a href="#">Link 7</a></li>
-                            <li><a href="#">Link 8</a></li>
-                        </ul>
+                    <div class="col-xs-12 col-sm-6 acct-nav">
+                        <div class="row search">
+                            <form action="/" method="get">
+                                <div class="input-group search-group">
+                                    <input type="text" name="search" class="form-control searchbar" placeholder="Search" />
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default search-icon">
+                                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                        </button>
+                                    </span>
+                                </div>
+                              <a href="/cart">  <span class="glyphicon glyphicon-shopping-cart cart-icon"></span></a>
+                            </form>
+                        </div>
+                        <div class="row site-nav">
+                            <ul class="nav" id="personal-links">
+                                <li><a href="">My Orders</a></li>
+                                <li><a href="customer_service">Customer Service</a></li>
+                                <li><a href="customer">Your Account</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </nav>
+                </div>
+                <div class="row" id="site-nav">
+                    <nav class="navbar">
+                        <div class="navbar-header navbar-default">
+                            <a type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-nav" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="site-nav">
+                            <ul class="nav nav-justified second-nav">
+                                {include file="siteNav.tpl"}
+                            </ul>
+                            <ul class="nav navbar-nav visible-xs-* visible-sm-* mobile-nav">
+                                <li><a href="#">Link 1</a></li>
+                                <li><a href="#">Link 2</a></li>
+                                <li><a href="#">Link 3</a></li>
+                                <li><a href="#">Link 4</a></li>
+                                <li><a href="#">Link 5</a></li>
+                                <li><a href="#">Link 6</a></li>
+                                <li><a href="#">Link 7</a></li>
+                                <li><a href="#">Link 8</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
             </div>
-        </div>
         <!-- <div class="header" style="background-image: url(http://www.thehubcompanies.com/images/shared/headers/header_{$site.templateDir}hub.png);">
            <div id="header-logo">
             <div class="logo-img">
@@ -768,7 +762,7 @@ USE CODE <b>OIL</b> FOR AN ADDITIONAL 15% OFF!</div>
            </div>
         </div> -->
         {block name="topbar"}
-          <div class="topbar">
+          <!-- <div class="topbar">
             {* !!!!!!!!!!!!!!!! TOP BANNER (DESKTOP) START !!!!!!!!!!!!!!!! *}
             <div class="scroller">
               {if $smarty.now > 1430352000  AND $smarty.now < 1430438400 }
@@ -798,30 +792,30 @@ USE CODE <b>OIL</b> FOR AN ADDITIONAL 15% OFF!</div>
               <div class="clear"></div>
               </a>
             </div>
-          </div>
+        <!--  </div> -->
         {/block}
         <!-- <div class="outer-content-wrapper" style="background: #{$site.siteColor};"> -->
-        <div class="container main">
-          <div class="inner-content-wrapper">
-            {block name="sidebar"}
-            <div class="sidebar">
-              {block name="sidebarTop"}
-                {include file="sideCategories.tpl"}
-              {/block}
-              {include file="sideMarketing.tpl"}
-              {include file="sideRecentProds.tpl"}
-              {include file="sideRecentSearch.tpl"}
-              {include file="sideNewsLetter.tpl"}
+            <div class="container main">
+                <div class="inner-content-wrapper">
+                    <!-- {block name="sidebar"}
+                    <div class="sidebar">
+                        {block name="sidebarTop"}
+                          {include file="sideCategories.tpl"}
+                        {/block}
+                        {include file="sideMarketing.tpl"}
+                        {include file="sideRecentProds.tpl"}
+                        {include file="sideRecentSearch.tpl"}
+                        {include file="sideNewsLetter.tpl"}
+                    </div>
+                    {/block} -->
+                    <div class="content {if isset($cartView)}fullPage{/if}">
+                        {block name=banner}{/block}
+                        <!-- <div id="body_ajax_overlay" style="display: none;"></div> -->
+                        {block name="body"}{/block}
+                    </div>
+                </div>
             </div>
-            {/block}
-            <div class="content {if isset($cartView)}fullPage{/if}">
-              {block name=banner}{/block}
-              <!-- <div id="body_ajax_overlay" style="display: none;"></div> -->
-              {block name="body"}{/block}
-            </div>
-          </div>
-        </div>
-  <!--       <div class="bottom-tabs" style="border-top: 10px solid #{$site.siteColor};">
+    <!--       <div class="bottom-tabs" style="border-top: 10px solid #{$site.siteColor};">
           <div class="bottom-tab" id="bottom-tab-oil"><a href="http:\\www.theoilhub.com"{if $site.templateDir == "oil"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.theoilhub.com']); return false;">
           <img src="/images/shared/tabs/theoilhub_bottom_tab.png" width="111" height="43" /></a></div>
           <div class="bottom-tab" id="bottom-tab-auto"><a href="http://www.autoparthub.com"{if $site.templateDir == "auto"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.autoparthub.com']); return false;">
@@ -836,7 +830,7 @@ USE CODE <b>OIL</b> FOR AN ADDITIONAL 15% OFF!</div>
           <img src="/images/shared/tabs/snowpart_bottom_tab.png" width="111" height="43" /></a></div>
           <div class="bottom-tab" id="bottom-tab-rider"><a href="http://www.riderapparelhub.com"{if $site.templateDir == "rider"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.riderapparelhub.com']); return false;">
           <img src="/images/shared/tabs/rider_bottom_tab.png" width="111" height="43" /></a></div>
-          <div class="minicart" style="background: #{$site.siteColor};">
+           -->  <div class="minicart" style="background: #{$site.siteColor};">
             <a href="/cart">
             <div class="cartimage"><img src="http://www.thehubcompanies.com/images/shared/cart_full_{$site.siteTheme}.png" width="22" height="36" /></div>
             <div class="cartamount" style="color: #{$site.siteTextColor};">${$cartTotal|string_format:"%.2f"}</div>
@@ -844,95 +838,97 @@ USE CODE <b>OIL</b> FOR AN ADDITIONAL 15% OFF!</div>
             <div class="clear"></div>
             </a>
           </div>
-        </div>    Add if statement to the footer           -->
-         <div class="footer">
-		 <div class="container-fluid bs-footer">
-
-            <div class="row footer-nav">
-                <ul class="nav footer nav-justified">
-                    <li>
-                        <a href="http://www.theoilhub.com"{if $site.templateDir == "oil"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.theoilhub.com']); return false;">Oil</a>
-                    </li>
-                    <li>
-                        <a href="http://www.autoparthub.com"{if $site.templateDir == "auto"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.autoparthub.com']); return false;">Auto</a>
-                    </li>
-                    <li>
-                        <a href="http://www.motoparthub.com"{if $site.templateDir == "moto"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.motoparthub.com']); return false;">Moto</a>
-                    </li>
-                    <li>
-                        <a href="http://www.marineparthub.com"{if $site.templateDir == "marine"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.marineparthub.com']); return false;">Marine</a>
-                    </li>
-                    <li>
-                        <a href="http://www.atvparthub.com"{if $site.templateDir == "atv"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.atvparthub.com']); return false;">ATV</a>
-                    </li>
-                    <li>
-                        <a href="http://www.snowparthub.com"{if $site.templateDir == "snow"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.snowparthub.com']); return false;">Snow</a>
-                    </li>
-                    <li>
-                        <a href="http://www.riderapparelhub.com"{if $site.templateDir == "rider"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.riderapparelhub.com']); return false;">RV</a>
-                    </li>
-                    <li><a href="">Apparel</a></li>
-                </ul>
-				<div class="row help">
-					<strong>WE'RE HERE TO HELP.</strong> <br />
-					7 DAYS A WEEK, 8AM - 7PM
-				</div>
-            </div>
-		    <div class="row footer-main">
-                <!-- <div class="col-xs-6 col-xs-push-2 chat"> -->
-                <div class="col-xs-6 chat">
-                    <strong class="icon-text-foot">LIVE CHAT</strong><span class="glyphicon glyphicon-comment comment-icon"> </span>
+   <!--      </div>    Add if statement to the footer         -->
+            <div class="footer">
+        	    <div class="container-fluid bs-footer">
+                    <div class="row footer-nav">
+                        <ul class="nav footer nav-justified">
+                            <li>
+                                <a href="http://www.theoilhub.com"{if $site.templateDir == "oil"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.theoilhub.com']); return false;">Oil</a>
+                            </li>
+                            <li>
+                                <a href="http://www.autoparthub.com"{if $site.templateDir == "auto"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.autoparthub.com']); return false;">Auto</a>
+                            </li>
+                            <li>
+                                <a href="http://www.motoparthub.com"{if $site.templateDir == "moto"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.motoparthub.com']); return false;">Moto</a>
+                            </li>
+                            <li>
+                                <a href="http://www.marineparthub.com"{if $site.templateDir == "marine"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.marineparthub.com']); return false;">Marine</a>
+                            </li>
+                            <li>
+                                <a href="http://www.atvparthub.com"{if $site.templateDir == "atv"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.atvparthub.com']); return false;">ATV</a>
+                            </li>
+                            <li>
+                                <a href="http://www.snowparthub.com"{if $site.templateDir == "snow"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.snowparthub.com']); return false;">Snow</a>
+                            </li>
+                            <li>
+                                <a href="http://www.riderapparelhub.com"{if $site.templateDir == "rider"} class="current"{/if} onclick="_gaq.push(['_link', 'http://www.riderapparelhub.com']); return false;">RV</a>
+                            </li>
+                            <li><a href="">Apparel</a></li>
+                        </ul>
+                    </div>
+        			<div class="row" id="footer-content">
+                        <div class="col-md-6 left">
+                            <div class="row">
+                                <h2 id="help">We're Here To Help.</h2>
+                                <h3 id="days">7 Days A Week, 8am - 7pm</h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6 columns">
+                                    <ul class="nav footer-links">
+                                        <li ><a href="/customer_service?section=0" id="ui-id-2" tabindex="-1" role="menuitem">ABOUT US</a></li>
+                                        <li ><a href="/customer_service?section=7" id="ui-id-3" tabindex="-1" role="menuitem">BENEFITS &amp; GUARANTEES</a></li>
+                                        <li ><a href="/customer_service?section=1" id="ui-id-4" tabindex="-1" role="menuitem">PRIVACY &amp; SECURITY</a></li>
+                                        <li ><a href="/customer_service?section=3" id="ui-id-5" tabindex="-1" role="menuitem">SHIPPING &amp; DELIVERY</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12 col-md-6 columns">
+                                    <ul class="nav footer-links">
+                                        <li ><a  href="/customer_service?section=5" id="ui-id-6" tabindex="-1" role="menuitem">RETURNS &amp; EXCHANGES</a></li>
+                                        <li ><a href="/customer_service?section=4" id="ui-id-7" tabindex="-1" role="menuitem">CONTACT US</a></li>
+                                        <li ><a  href="/customer_service?section=9" id="ui-id-8" tabindex="-1" role="menuitem">TERMS OF SERVICE</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 right">
+                            <div class="row">
+                                <div class="col-xs-6 chat">
+                                    <strong class="icon-text-foot">LIVE CHAT</strong><span class="glyphicon glyphicon-comment comment-icon"> </span>
+                                </div>
+                                <div class="col-xs-6 phone">
+                                    <strong class="icon-text-foot">800-123-3455</strong><span class="glyphicon glyphicon-phone phone-icon"></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <h2>Connect with us:</h2>
+                                <img src="http://www.thehubcompanies.inpresence.us/img/facebook.png" alt="">
+                                <img src="http://www.thehubcompanies.inpresence.us/img/twitter.png" alt="">
+                            </div>
+                            <div class="row">
+                                <p id="copyright">
+                                    Copyright 2015. All Rights Reserved<br />
+                                    Operated by Edge Xtreme Sports a subsidiary of The Hub Companies <br />
+                                    600 North Waukegan Road, Unit 102<br />
+                                    Northbrook IL 60062<br />
+                                    866-907-2330&nbsp;&nbsp;&nbsp;847-790-4HUB&nbsp;&nbsp;&nbsp;847-790-4482
+                                </p>
+                            </div>
+                        </div>
+        			</div>
                 </div>
-                <!-- <div class="col-xs-6 col-xs-pull-2 phone"> -->
-                <div class="col-xs-6 phone">
-                    <strong class="icon-text-foot">800-123-3455</strong><span class="glyphicon glyphicon-phone phone-icon"></span>
-                </div>
             </div>
-            <div class="row col-md-6 col-md-push-3 footer-nav ">
-                <ul class="nav footer-links nav-justified">
-                    <li ><a href="/customer_service?section=0" id="ui-id-2" tabindex="-1" role="menuitem">ABOUT US</a></li>
-                    <li ><a href="/customer_service?section=7" id="ui-id-3" tabindex="-1" role="menuitem">BENEFITS &amp; GUARANTEES</a></li>
-                    <li ><a href="/customer_service?section=1" id="ui-id-4" tabindex="-1" role="menuitem">PRIVACY &amp; SECURITY</a></li>
-                    <li ><a href="/customer_service?section=3" id="ui-id-5" tabindex="-1" role="menuitem">SHIPPING &amp; DELIVERY</a></li>
-                </ul>
-			    <ul class="nav footer-links nav-justified">
-    			    <li ><a  href="/customer_service?section=5" id="ui-id-6" tabindex="-1" role="menuitem">RETURNS &amp; EXCHANGES</a></li>
-                    <li ><a href="/customer_service?section=4" id="ui-id-7" tabindex="-1" role="menuitem">CONTACT US</a></li>
-                    <li ><a  href="/customer_service?section=9" id="ui-id-8" tabindex="-1" role="menuitem">TERMS OF SERVICE</a></li>
-			    </ul>
-
-            </div>
-
-            </div>
-</div>
- </div>
-  </div>
-          <div class="container footer">
-            <div class="col-xs-6 copyright">
-                Copyright 2015. All Rights Reserved<br />
-                Operated by Edge Xtreme Sports a subsidiary of The Hub Companies <br />
-                600 North Waukegan Road, Unit 102<br />
-                Northbrook IL 60062<br />
-                866-907-2330&nbsp;&nbsp;&nbsp;847-790-4HUB&nbsp;&nbsp;&nbsp;847-790-4482
-            </div>
-
-		    <div class="col-xs-6 social">Connect with us! </div>
-			<img src="http://www.thehubcompanies.inpresence.us/img/facebook.png" alt="">
-			<img src="http://www.thehubcompanies.inpresence.us/img/twitter.png" alt="">
-
-		  </div>
-
-
-		  </div>
-        <div id="layout-control">
-          <div>
+        </div>
+    </div>
+    <div id="layout-control">
+        <div>
           Change Website Layout<br>
           <a href="?forcelayout=computer">Mobile</a> | <a href="?forcelayout=computer">Desktop</a>
-          </div>
-          <div>
-            <a href="#" class="scrollToTop">Scroll To Top</a>
-          </div>
         </div>
+        <div>
+            <a href="#" class="scrollToTop">Scroll To Top</a>
+        </div>
+    </div>
       </div>
     </div>
     <div id="dialog" title="" style="display: none;">
@@ -941,7 +937,7 @@ USE CODE <b>OIL</b> FOR AN ADDITIONAL 15% OFF!</div>
       </div>
       <div id="dialogtext"></div>
     </div>
-    <div id="dialog-open"  style="display: none;"></div>
+    <div id="dialog-open" style="display: none;"></div>
       <!-- Google Code for Remarketing tag -->
       <!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
       {block name="remarketing"}
@@ -977,41 +973,17 @@ USE CODE <b>OIL</b> FOR AN ADDITIONAL 15% OFF!</div>
     <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-            $('.brand-carousel-slick').slick({
+            $('.promo-carousel-slick').slick({
                 infinite: true,
                 speed: 300,
                 arrows: false,
                 autoplay: true,
-                slidesToShow: 6,
-                slidesToScroll: 6,
-                responsive: [
-                    {
-                      breakpoint: 1024,
-                      settings: {
-                        slidesToShow: 4,
-                        slidesToScroll: 4,
-                        infinite: true,
-                      }
-                    },
-                    {
-                      breakpoint: 600,
-                      settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3
-                      }
-                    },
-                    {
-                      breakpoint: 480,
-                      settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2
-                      }
-                    }
-                ]
+                slidesToShow: 1,
+                slidesToScroll: 1,
             });
         });
       </script>
     </body>
-    </html>
+</html>
   {* COMPUTER LAYOUT END *}
 {/if}
